@@ -10,4 +10,7 @@
 			return self::$instance;
 		}
 	}
+	
+	// Implementation
+	$Singleton = ThereCanOnlyBeOne::getInstance();
 ?>
